@@ -26,17 +26,18 @@ a {
     color: #281867;
     font-family: Permanent Marker, Helvetica, sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
-
 h4 {
     color: #e0872e;
 }
 
-.book,
-.join {
+.book, .join {
     color: #281867;
     text-decoration: none;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,
@@ -115,6 +116,7 @@ nav a:hover {
 footer {
     background-color: #281867;
     padding: 15px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -157,6 +159,15 @@ h2{
 img {
     border: 4px solid steelblue;
 }
-#logo_link{
-    padding-top: 100px;
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: solid #e0872e 10px;
+}
+main section img{
+    box-sizing: border-box;
 }
