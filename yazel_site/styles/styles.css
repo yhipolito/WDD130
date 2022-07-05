@@ -75,9 +75,9 @@ nav a:hover {
 }
 
 .msg-home {
-    grid-column: 2/9;
+    grid-column: 3/9;
     grid-row: 1/2;
-    padding: 40px;
+    padding: 100px 0;
 }
 
 .msg-home h2{
@@ -91,8 +91,11 @@ nav a:hover {
 }
 
 .msg-benefits {
-    grid-column: 2/5;
-    grid-row: 4/6;    
+    grid-column: 3/5;
+    grid-row: 4/6;
+    font-family: PT Mono, monospace, sans-serif;
+    line-height: 1.4;
+    padding: 50px 0;    
 }
 
 .benefits-img{
@@ -101,6 +104,7 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     width: 100%;
+    padding: 50px 0;
 }
 
 /* #hero-msg {
@@ -109,105 +113,29 @@ nav a:hover {
     margin-top: 20px;
 } */
 
-/* #faq-msg {
-    grid-column: 2/3;
+.msg-faqs {
+    grid-column: 3/9;
     grid-row: 3/4;
     margin-top: 20px;
+    line-height: 1.5;
+    font-family: PT Mono, monospace, sans-serif;
 }
 
-#faq-msg h1,
-#faq-msg h4 {
-    text-align: center;
-    color: #281867;
-} */
-
-/* #hero-msg h1,
-#hero-msg h4 {
-    text-align: center;
-    color: white;
-} */
-
-/* .button-box {
-    text-align: center;
-} */
-
-/* main section {
-    text-align: center;
-} */
-
-/* #background {
-    height: 725px;
-    background-color: #0b91da;
-    grid-column: 1/11;
-    grid-row: 4/9;
-} */
-
-/* body {
-    background-color: #ffffff;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-} */
-
-/* .book {
-    background-color: #e0872e;
-    font-size: 18px;
-} */
-
-/* .join {
-    background-color: #0b91da;
-    font-size: 18px;
+.contactus-img{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 50px;
 }
-
-.book:hover,
-.join:hover {
-    background-color: white;
-} */
-
-/* .msg {
-    background-color: #e0872e;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-} */
-
-/* .faq-msg {
-    background-color: #dda166;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 2/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.faq-msg h4 {
-    color: #281867;
-    line-height: .1em;
-}
-
-
-.msg h2 {
-    color: #281867;
-    font-family: Permanent Marker, Helvetica, sans-serif;
-    font-size: 2em;
-}
-
-.msg p {
-    color: white;
-    margin: 50px auto;
-    font-size: .8em;
-    padding-bottom: 15px;
-} */
 
 footer {
     background-color: #2274A5;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: PT Mono, monospace, sans-serif;
 }
 
 footer p {
@@ -228,11 +156,6 @@ footer a:hover {
     background-color: #FFBF00;
 }
 
-/* .icon {
-    width: 80px;
-    padding-top: 10px;
-} */
-
 footer p a:hover {
     text-decoration: underline;
 }
@@ -241,17 +164,6 @@ footer .social img {
     padding-top: 15px;
 }
 
-/* h1 {
-    margin: 50px 0;
-}
-
-h2 {
-    margin: 0;
-} */
-
-/* main section img {
-    box-sizing: border-box;
-} */
 
 form {
     /* Center the form on the page */
@@ -261,6 +173,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    font-family: PT Mono, monospace, sans-serif;
 }
 
 ul {
@@ -368,24 +281,6 @@ between the labels and their text fields */
         font-size: 25px;
         color: #6f7364;
     }
-
-    /* .rivers-card,
-    .camping-card,
-    .rapids-card {
-        margin: 50px auto;
-        width: 60%;
-    }
-
-    #background {
-        display: none;
-    }
-
-    .mountains,
-    .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    } */
 
     footer {
         margin-top: 25px;
