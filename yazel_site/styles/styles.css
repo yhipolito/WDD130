@@ -6,6 +6,8 @@ div {
 
 #content {
     margin: 0 auto;
+    font-family: PT PT Mono, monospace, sans-serif;
+    ;
 }
 
 nav a {
@@ -40,7 +42,7 @@ a {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 190px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -53,13 +55,19 @@ a {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color:#FFBF00;}
+.dropdown:hover .dropbtn {
+    background-color: #FFBF00;
+}
 
 .logo {
     width: 80px;
@@ -114,31 +122,46 @@ nav a:hover {
     padding: 100px 0;
 }
 
-.msg-home h2{
+#background {
+    height: 725px;
+    background-color: #FFBF00;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.msg-home h2 {
     text-align: center;
     font-family: Rubik Mono One;
 }
 
-.msg-home p{
+.msg-home p {
     font-family: PT Mono, monospace, sans-serif;
     line-height: 1.5;
+    text-align: left;
 }
 
 .msg-benefits {
-    grid-column: 3/5;
-    grid-row: 4/6;
+    grid-column: 6/10;
+    grid-row: 5/7;
     font-family: PT Mono, monospace, sans-serif;
     line-height: 1.4;
-    padding: 50px 0;    
+    padding: 35px;
+    background-color: #77BB3F;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
-.benefits-img{
-    grid-column: 6/9;
-    grid-row: 4/6;
-    display: block;
-    margin: 0 auto;
+.msg-benefits h2 {
+    font-family: Rubik Mono One;
+}
+
+.msg-benefits ul {
+    text-align: left;
+}
+
+.benefits-img {
+    grid-column: 2/6;
+    grid-row: 5/8;
     width: 100%;
-    padding: 50px 0;
 }
 
 /* #hero-msg {
@@ -155,11 +178,10 @@ nav a:hover {
     font-family: PT Mono, monospace, sans-serif;
 }
 
-.contactus-img{
+.contactus-img {
     display: block;
     margin: 0 auto;
-    width: 400px;
-    margin-top: 50px;
+    width: 100%;
 }
 
 footer {
@@ -198,6 +220,10 @@ footer .social img {
     padding-top: 15px;
 }
 
+.contactus-msg {
+    text-align: center;
+    margin-top: 50px;
+}
 
 form {
     /* Center the form on the page */
@@ -208,6 +234,11 @@ form {
     border: 1px solid #CCC;
     border-radius: 1em;
     font-family: PT Mono, monospace, sans-serif;
+}
+
+.button button {
+    background-color: #FFBF00;
+    border-radius: 5px;
 }
 
 ul {
@@ -275,10 +306,15 @@ between the labels and their text fields */
     right: 0;
     padding: .5em;
     /* make this element invisible until we are ready for it */
-    display: none;       
+    display: none;
 }
+
 .moveDown {
     margin-top: 3em;
+}
+
+main section {
+    text-align: center;
 }
 
 @media screen and (max-width: 900px) {
@@ -318,5 +354,26 @@ between the labels and their text fields */
 
     footer {
         margin-top: 25px;
+    }
+
+    #background {
+        display: none;
+    }
+
+    .benefits-img,
+    .msg-benefits {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    form {
+        width: 300px;
+        margin: 10px auto;
+        padding: 10px;
+
     }
 }
