@@ -378,6 +378,8 @@ main section {
         width: 300px;
         margin: 10px auto;
         padding: 10px;
-
+    }
+    .msg-home {
+        margin: 20px;
     }
 }
