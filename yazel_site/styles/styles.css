@@ -123,7 +123,7 @@ nav a:hover {
 }
 
 #background {
-    height: 850px;
+    height: 1050px;
     background-color: #FFBF00;
     grid-column: 1/11;
     grid-row: 4/9;
