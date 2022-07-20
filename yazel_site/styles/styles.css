@@ -217,6 +217,10 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer a:hover {
+    size: 68px 68px;
+}
+
 footer .social img {
     padding-top: 15px;
 }
@@ -377,10 +381,40 @@ main section {
 @media screen and (max-width: 375px) {
     form {
         width: 300px;
-        margin: 10px auto;
+        margin: 40px auto;
         padding: 10px;
     }
+
     .msg-home {
         margin: 20px;
+        padding: 10px;
+    }
+    .msg-home p {
+        text-align: justify;
+    }
+
+    .msg-faqs p {
+        text-align: justify;
+    }
+
+    .msg-benefits {
+        font-size: 1.1em;
+    }
+
+    .msg-faqs {
+        margin: 20px;
+    }
+    .contactus-msg {
+        margin: 20px;
+    }
+    .benefits-img {
+        margin: 20px auto;
+        width: 100%;
+    }
+    nav {
+        align-items: flex-start;
+    }
+    #three_dots {
+        margin: 0 auto;
     }
 }
