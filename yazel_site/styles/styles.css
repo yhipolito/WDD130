@@ -126,7 +126,7 @@ nav a:hover {
     height: 1050px;
     background-color: #FFBF00;
     grid-column: 1/11;
-    grid-row: 4/9;
+    grid-row: 5/10;
 }
 
 .msg-home h2 {
@@ -142,12 +142,13 @@ nav a:hover {
 
 .msg-benefits {
     grid-column: 6/10;
-    grid-row: 5/7;
+    grid-row: 7/8;
     font-family: PT Mono, monospace, sans-serif;
     line-height: 1.4;
     padding: 35px;
     background-color: #77BB3F;
     box-shadow: 5px 5px 10px #6f7364;
+    font-size: 1.5em;
 }
 
 .msg-benefits h2 {
@@ -160,7 +161,7 @@ nav a:hover {
 
 .benefits-img {
     grid-column: 2/6;
-    grid-row: 5/8;
+    grid-row: 6/9;
     width: 100%;
 }
 
